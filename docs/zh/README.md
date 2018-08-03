@@ -2,20 +2,18 @@
 
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
-Wave effect plugin for Vue.js
+Vue.js波浪效果插件
 
 ![demo](https://raw.githubusercontent.com/superhos/vue-real-wave/master/docs/demo.gif)
 
-[中文文档](/docs/zh/README.md)
-
 ## Installation
 
-1) Install package via NPM
+1) 通过NPM安装
 
 ```bash
 npm install vue-real-wave
 ```
-2) Install plugin within project
+2) 项目中引用插件
 
 ```javascript
 import VueRealWave from 'vue-real-wave'
@@ -28,7 +26,7 @@ const vueBaberrage = request('vue-baberrage');
 
 ## Usage
 
-1) Template
+1) 模板
 
 ```html
 <div id="app">
@@ -41,41 +39,40 @@ const vueBaberrage = request('vue-baberrage');
 </div>
 ```
 
-2) Already done
+2) 搞定
 
-Just One step.
 
-## Plugin Options
+## 插件参数
 
 #### waveGap
 	- Default: `150`
 	- Acceptable-Values: Number
-	- Function: The gap distance between two wave.
+	- Function: 波浪间的距离。
 
 #### waveHeight
 	- Default: `40`
 	- Acceptable-Values: Number
-	- Function: The height of the wave.
+	- Function: 波浪的高度。
 
 #### waveLayerCount
 	- Default: `4`
 	- Acceptable-Values: Number
-	- Function: The layers number of the wave. ** Note that ** the size of the color's list must be equal with waveLayerCount.
+	- Function: 波浪的层数。 ** 注意 ** 波浪的层数必须跟颜色数组长度相等。
 
 #### waveColor
 	- Default: `['#40ccd4','#71d8df','rgba(256,256,256,.5)','rgba(256,256,256,1)']`
 	- Acceptable-Values: Array
-	- Function: The color's list of the wave. ** Note that ** the size of the color arrage must be equal with waveLayerCount.
+	- Function: 波浪颜色数组。 ** 注意 ** 波浪的层数必须跟颜色数组长度相等。
 
 #### wavePosition
 	- Default: `bottom`
 	- Acceptable-Values: String
-	- Function: 'top' or 'bottom'. Determine the position of the wave of the content.
+	- Function: 'top' 或者 'bottom'. 波浪相对于内容的位置。
 
 #### space
 	- Default: `50`
 	- Acceptable-Values: Number
-	- Function: The padding between with the nearest element.
+	- Function: 距离内容最近位置的距离.
 
 
 ## Events

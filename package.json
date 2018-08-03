@@ -1,13 +1,18 @@
 {
   "name": "vue-real-wave",
-  "description": "A wave effect for website base on vue.js",
-  "version": "1.0.0",
+  "description": "A wave effect for website base on vue.js | Vue.js波浪特效插件",
+  "version": "1.0.2",
   "author": "SevensChan <297495165@qq.com>",
   "license": "MIT",
-  "private": true,
+  "main": "dist/vue-real-wave.js",
+  "private": false,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superhos/vue-real-wave.git"
   },
   "dependencies": {
     "snapsvg-cjs": "0.0.6",
@@ -32,5 +37,9 @@
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
-  }
+  },
+  "keywords": [
+    "vue",
+    "wave"
+  ]
 }
