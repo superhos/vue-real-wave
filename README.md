@@ -67,6 +67,12 @@ Just One step.
 	- Acceptable-Values: Array
 	- Function: The color's list of the wave. ** Note that ** the size of the color arrage must be equal with waveLayerCount.
 
+#### waveBackgroundColor
+	- Default: `#0aaacb`
+	- Acceptable-Values: String
+	- Function: The Background color.
+
+
 #### wavePosition
 	- Default: `bottom`
 	- Acceptable-Values: String
