@@ -28,7 +28,7 @@ export default {
       divStyle: {
         paddingBottom: 0,
         paddingTop: 0,
-        background: '#0aaacb',
+        background: this.waveBackgroundColor,
       }
     }
   },

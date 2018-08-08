@@ -21,6 +21,10 @@ export default {
       return ['#40ccd4','#71d8df','rgba(256,256,256,.5)','rgba(256,256,256,1)'];
     },
   },
+  waveBackgroundColor: {
+    type: String,
+    deault: '#0aaacb',
+  },
   // position bottom
   wavePosition: {
     type: String,
