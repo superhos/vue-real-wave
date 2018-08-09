@@ -1,7 +1,7 @@
 {
   "name": "vue-real-wave",
   "description": "A wave effect for website base on vue.js | Vue.js波浪特效插件",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "SevensChan <297495165@qq.com>",
   "license": "MIT",
   "main": "dist/vue-real-wave.js",
